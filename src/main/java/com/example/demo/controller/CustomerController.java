@@ -8,9 +8,7 @@ import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
-//@Controller // Контроллер обрабатывает запросы, которые приходят на определенный адрес
-//@ResponseBody // spring будет сам автоматически передавать данные в JSON
-@RestController // Включает в себя @Controller и ResponseBody
+@RestController
 @AllArgsConstructor
 public class CustomerController {
 

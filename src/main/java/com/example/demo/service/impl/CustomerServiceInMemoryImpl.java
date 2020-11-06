@@ -10,7 +10,6 @@ import java.util.Map;
 @Service
 public class CustomerServiceInMemoryImpl implements CustomerService {
     // хранить кастомеров будем в коллекции
-    // для хранения в БД, колллекция не нужна, вместо нее нужно создать репозиторий
     private Map<Integer, CustomerDTO> persist = new HashMap<>();
 
     @Override
