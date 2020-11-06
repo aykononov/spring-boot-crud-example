@@ -32,13 +32,15 @@ Java + Maven + SpringBoot -> (CRUD) Microservice
 
 <summary>REST-контроллер...</summary>
 
+<small>
+
 >*Контроллер* обрабатывает запросы, которые приходят на определенный адрес.
 >Для того чтобы сделать класс Контроллером, нужно помеить его аннотацией:
 >```java 
 >@Controller
 >```
 >В Spring`е есть функциональность для автоматической передачи объектов в формате JSON. 
->Для этого достаточно добавить следующую аннотацию, чтобы Spring автоматически обрабатывал информацию в формате JSON:
+>Для этого достаточно добавить следующую аннотацию:
 >```java
 >@ResponseBody
 >```
@@ -50,7 +52,9 @@ Java + Maven + SpringBoot -> (CRUD) Microservice
 >
 >**ВАЖНО!!!**    
 >Разница между *@Controller* и *@RestController* в том, что в *@RestController`е* есть обе аннотации *@Controller* и *@ResponseBody*.
->
+
+</small>
+
 </details>
 
 </small>
