@@ -8,7 +8,7 @@ import java.util.HashMap;
 import java.util.Map;
 
 @Service
-public class CustomerServiceInMemoryImpl implements CustomerService {
+public class CustomerServiceInMemory implements CustomerService {
     // хранить кастомеров будем в коллекции
     private Map<Integer, CustomerDTO> persist = new HashMap<>();
 
@@ -21,5 +21,10 @@ public class CustomerServiceInMemoryImpl implements CustomerService {
     @Override
     public CustomerDTO getCustomer(int id) {
         return persist.get(id);
+    }
+
+    @Override
+    public void removeCustomer(int id) {
+        persist.remove(id);
     }
 }
