@@ -1,6 +1,6 @@
 ## Пример простого рабочего CRUD микросервиса на Spring Boot.
 
-Java + Maven + SpringBoot -> (CRUD) Microservice
+Maven + SpringBoot -> (CRUD) Microservice
 
 ## An example of a simple working CRUD microservice on Spring Boot.
 
